@@ -1,8 +1,11 @@
 # fio-search
 
-A minimal web UI to handle searching for a [FIO](https://fioprotocol.io) if a domain or address (name@domain) has
-been registered. Not much more to it than that. Performing a table query for FIO addresses is a little tricky, so 
-although simple this tool provides a decent in-browser example of building the query (see App.vue for 
+A minimal web UI to handle searching if a [FIO](https://fioprotocol.io) domain or address (name@domain) has
+been registered. Not much more to it than that. There's a live example on my site [blockpane.com](https://snap.blockpane.com/fio-search/index.html)
+available.
+
+Performing a table query for FIO addresses is a little tricky, so although simple, this tool provides 
+a decent in-browser example of building the query (see App.vue for 
 a full example):
 
 ```vue
