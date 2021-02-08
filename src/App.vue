@@ -2,7 +2,7 @@
 
   <div id="app">
     <div class="container-lg">
-      <img alt="FIO" src="fio-logo.png" height="64"><br /><br /><span class="h3">Domain / Address Lookup</span>
+      <img alt="FIO" src="fio-logo.png" height="64"><br /><br /><span class="text-xl-center">Domain / Address Search</span>
     </div>
 
     <div class="container-lg">
@@ -76,17 +76,17 @@
       <br />
       <br />
     </div>
-    <h3>Where to buy addresses/domains</h3>
+    <p>Where to get addresses/domains:</p>
     <div class="container-lg">
       <div class="row">
         <div class="col-lg">
-          <b-link href="https://fioprotocol.io/free-fio-addresses/" target="_blank" rel="noopener"><span class="font-weight-bold">Get a FREE address</span><br />multiple wallets</b-link>
+          <b-link href="https://fioprotocol.io/free-fio-addresses/" target="_blank" rel="noopener"><span class="font-weight-bold">Get a FREE address</span><br />Offered by multiple wallets</b-link>
         </div>
         <div class="col-lg">
-          <b-link href="https://greymass.github.io/fio-register/" target="_blank" rel="noopener"><span class="font-weight-bold">Greymass FIO Registration Helper</span><br />using Anchor/Scatter wallet</b-link>
+          <b-link href="https://greymass.github.io/fio-register/" target="_blank" rel="noopener"><span class="font-weight-bold">Greymass FIO Registration Helper</span><br />Purchase using Anchor/Scatter wallets</b-link>
         </div>
         <div class="col-lg">
-          <b-link href="https://reg.fioprotocol.io/" target="_blank" rel="noopener"><span class="font-weight-bold">FIO foundation registration site</span><br />using BTC/ETH/USDC</b-link>
+          <b-link href="https://reg.fioprotocol.io/" target="_blank" rel="noopener"><span class="font-weight-bold">FIO foundation registration site</span><br />Purchase using BTC/ETH/USDC</b-link>
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@
     <br />
   </div>
 
-    <div class="footer">&copy; 2021 Block Pane, LLC. <b-link href="https://blockpane.com"><img alt="logo" src="blockpane-f.svg" height="32"></b-link></div>
+    <div class="footer">&copy; 2021 <b-link href="https://blockpane.com"><img alt="Block Pane, LLC." src="bp-small.png" height="18"></b-link></div>
 
   </div>
 </template>
