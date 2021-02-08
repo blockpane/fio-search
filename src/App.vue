@@ -30,7 +30,7 @@
     <div class="container-lg" v-show="showDomainTable"><div class="d-flex justify-content-center">
       <br />
       <table class="table table-bordered table-hover table-borderless">
-        <thead class="h4">
+        <thead class="font-weight-bolder lead">
         <tr>
           <th>Name</th>
           <th>Account</th>
@@ -38,7 +38,7 @@
           <th>Expires</th>
         </tr>
         </thead>
-        <tbody class="text-xl-center">
+        <tbody class="font-weight-bold">
         <tr>
           <td class="p-3">{{ domainResult.name }}</td>
           <td class="p-3"><b-link :href="domainResult.bloks">{{ domainResult.account }}</b-link></td>
@@ -51,16 +51,16 @@
 
     <div class="container-lg" v-show="showAddressTable"><div class="d-flex justify-content-center">
       <table class="table table-bordered table-hover table-borderless">
-        <thead class="h4">
+        <thead class="font-weight-bolder lead">
         <tr>
           <th>Name</th>
           <th>Account</th>
-          <th>Bundle Remaining</th>
+          <th>Bundled</th>
           <th>Expires</th>
           <th>Address Mappings</th>
         </tr>
         </thead>
-        <tbody class="text-xl-center">
+        <tbody class="font-weight-bold">
         <tr>
           <td class="p-3">{{ addressResult.name }}</td>
           <td class="p-3"><b-link :href="addressResult.bloks">{{ addressResult.owner_account }}</b-link></td>
@@ -76,7 +76,7 @@
       <br />
       <br />
     </div>
-    <p>Where to get addresses/domains:</p>
+    <p class="font-weight-bold">Where to get addresses/domains:</p>
     <div class="container-lg">
       <div class="row">
         <div class="col-lg">
