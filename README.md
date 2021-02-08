@@ -21,7 +21,7 @@ export default {
   methods: {  
     getAddress() {
         // 'this.input' is the address being searched:
-        // convert it by a byte array
+        // convert it to a byte array
         const encoded = new TextEncoder().encode(this.input)
   
         // get a sha-1 hash of the value
