@@ -95,7 +95,12 @@
     <br />
   </div>
 
-    <div class="footer">&copy; 2021 <b-link href="https://blockpane.com"><img alt="Block Pane, LLC." src="bp-small.png" height="18"></b-link></div>
+    <div class="footer">
+      &copy; 2021 <b-link href="https://blockpane.com"><img alt="Block Pane, LLC." src="bp-small.png" height="18"></b-link> &nbsp;
+      <b-link href="https://github.com/blockpane/fio-search">
+        <img src="GitHub-Mark-Light-32px.png" height="18">
+      </b-link>
+    </div>
 
   </div>
 </template>
